@@ -1,6 +1,6 @@
 ### OpenCart template
 .htaccess
-.idea
+/.idea
 #/config.php
 #admin/config.php
 
