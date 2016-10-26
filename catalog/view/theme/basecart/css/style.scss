@@ -1,0 +1,136 @@
+@import "variables";
+@import "../lib/boostrap4/scss/bootstrap";
+@import "bootsizes";
+// @import "../lib/font-awesome/scss/font-awesome";
+@import "microrules";
+
+$color1: #2f316b !default;
+$color2: #96979f !default;
+$color3: #e0e0e3 !default;
+$color4: white !default;
+
+$fs_small: 0.9rem;
+
+$contrastColorText: #5c4b42 !default;
+
+$frame: 100px;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  //font-weight: 300;
+  color: $color2;
+}
+
+h1, h2, h3, h4 {
+  color: $color1;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: $color1;
+}
+
+li {
+  a {
+    &.active {
+      font-weight: bold;
+      color: $color1;
+    }
+  }
+}
+
+//--------------------------------------------------------------//
+
+.c1 {
+  color: $color1;
+}
+
+.bc1 {
+  background: $color1;
+}
+
+.bc2 {
+  background: $color2;
+}
+
+.bc3 {
+  background: $color3;
+}
+
+.bc4 {
+  background: $color4;
+}
+
+//--------------------------------------------------------------//
+//--------------------------------------------------------------//
+
+#logo {
+  img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+//--------------------------------------------------------------//
+
+.hovereffect {
+  img {
+
+    &:hover {
+      opacity: 0.9;
+      filter: alpha(opacity=90);
+    }
+  }
+}
+
+//--------------------------------------------------------------//
+
+.breadcrumb {
+  font-size: $fs_small;
+  li {
+    display: inline-block;
+  }
+  li + li::before {
+    color: #ccc;
+    content: "/ ";
+    padding: 0 5px;
+  }
+}
+
+//--------------------------------------------------------------//
+//--------------------------------------------------------------//
+
+h1 {
+  font-size: 2rem;
+}
+//--------------------------------------------------------------//
+//--------------------------------------------------------------//
+.navbar-brand {
+  height: inherit;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navbar-brand img {
+  width: 158px;
+  height: auto;
+}
+
+//--------------------------------------------------------------//
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+//--------------------------------------------------------------//
+
+.phonetop {
+  font-size: 1.7rem;
+  color: $color1;
+}
+
+//--------------------------------------------------------------//
+//--------------------------------------------------------------//

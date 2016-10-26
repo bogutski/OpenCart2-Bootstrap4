@@ -1,6 +1,6 @@
 ### OpenCart template
 .htaccess
-/.idea
+.idea
 #/config.php
 #admin/config.php
 
@@ -17,3 +17,4 @@ system/storage/
 /image/catalog/demo/
 /image/catalog/cat/*
 /image/catalog/product/*
+/catalog/view/theme/basecart/gulp/node_modules/
