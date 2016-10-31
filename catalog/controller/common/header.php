@@ -87,7 +87,12 @@ class ControllerCommonHeader extends Controller {
 		$data['theme'] = $this->config->get('basecart_module_theme');
 		$data['nav'] = $this->config->get('basecart_module_nav');
 
-		// Menu
+        $data['address'] = nl2br($this->config->get('config_address'));
+        $data['telephone'] = $this->config->get('config_telephone');
+        $data['email'] = $this->config->get('config_email');
+
+
+        // Menu
 		$this->load->model('catalog/category');
 
 		$this->load->model('catalog/product');

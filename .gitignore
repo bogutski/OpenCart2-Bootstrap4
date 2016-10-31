@@ -17,4 +17,4 @@ system/storage/
 /image/catalog/demo/
 /image/catalog/cat/*
 /image/catalog/product/*
-/catalog/view/theme/basecart/gulp/node_modules/
+/catalog/view/theme/basecart/gulp/node_modules/*

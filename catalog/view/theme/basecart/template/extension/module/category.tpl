@@ -29,6 +29,6 @@ for (var i = 0; i < listItems.length; i++) {
     productQuantity[1] = "";
   }
 
-  el.innerHTML = categoryName + "<span class=\"badge\">" + productQuantity[1] + "</span>";
+  el.innerHTML =  "<span class=\"tag tag-default tag-pill float-xs-right\">" + productQuantity[1] + "</span>" + categoryName;
 }
 </script>

@@ -8,6 +8,7 @@ $color1: #2f316b !default;
 $color2: #96979f !default;
 $color3: #e0e0e3 !default;
 $color4: white !default;
+$color5: #eb212e !default;
 
 $fs_small: 0.9rem;
 
@@ -107,6 +108,7 @@ li {
 h1 {
   font-size: 2rem;
 }
+
 //--------------------------------------------------------------//
 //--------------------------------------------------------------//
 .navbar-brand {
@@ -125,6 +127,7 @@ h1 {
   width: 100%;
   height: auto;
 }
+
 //--------------------------------------------------------------//
 
 .phonetop {
@@ -132,5 +135,61 @@ h1 {
   color: $color1;
 }
 
+.mailtop {
+  font-size: 1.7rem;
+}
+
 //--------------------------------------------------------------//
+
+.pge {
+  background: rgba(0, 0, 0, 0) url("../img/pge.gif") no-repeat scroll 0 3px / 25px auto;
+  color: #1ba6dd;
+  padding-left: 30px !important;
+}
+
+.smud {
+  color: #ee5d2f;
+  background: rgba(0, 0, 0, 0) url("../img/smud.gif") no-repeat scroll 0 3px / 25px auto;
+  padding-left: 30px !important;
+}
+
+.noFirstBorder {
+  tr:first-child td {
+    border-top: none;
+  }
+}
+
+//---PRICE-----------------------------------------------------------//
+
+.price {
+  &.list {
+    font-size: 1.5rem;
+  }
+
+  &.inProduct {
+    font-size: 2rem;
+  }
+
+  &.regular {
+    color: $color1;
+  }
+
+  &.old {
+    text-decoration: line-through;
+    color: $gray;
+  }
+
+  &.special {
+    color: $color5;
+  }
+
+}
+
+//----PRODUCT PAGE----------------------------------------------------------//
+.product-data .sp {
+  display: inline-block;
+  min-width: 150px;
+  line-height: 28px;
+}
+
 //--------------------------------------------------------------//
