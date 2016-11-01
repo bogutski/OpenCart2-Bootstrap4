@@ -102,7 +102,8 @@
                                     <div>
                                         <div class="caption">
                                             <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
-                                            <?php if (strlen($product['description']) > 5) { ?>
+
+                                            <?php if (strlen($product['description'])) { ?>
                                                 <p><?php echo $product['description']; ?></p>
                                             <?php } ?>
 

@@ -1,0 +1,93 @@
+/*Bootstrap redefinition*/
+td,
+th {
+  font-size: 13px !important;
+}
+
+.btn-toolbar {
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.btn:visited {
+  color: #FFF;
+}
+
+.filters {
+  margin-top: 10px;
+}
+
+.filters .select{
+  width: 135px;
+  height: 25px;
+}
+
+.filters .rule {
+  width: 91px;
+  height: 25px;
+}
+
+.filters .filter-even {
+  background-color: #f9f9f9;
+}
+
+.filter-panel {
+  margin-bottom: 10px;
+}
+
+#products label {
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+#content {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#edit-field {
+  margin-top: -20px;
+  position: absolute;
+  background: #cacaca;
+  border: 1px solid #302c2c;
+  z-index: 1;
+  padding: 5px;
+}
+
+#layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  display: none;
+}
+
+#products-per-page {
+  padding: 2px;
+  width: 50px;
+  height: 25px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+#product-sort-type {
+    padding: 2px;
+    height: 33px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+#products .table thead input[name="sort[]"] {
+    margin: 0px 4px 0px 0px;
+    width: 15px;
+    height: 11px;
+}
+
+#footer {
+  margin-top: 0px !important;
+}
